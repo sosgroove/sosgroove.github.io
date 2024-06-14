@@ -15,6 +15,7 @@ body {
   padding: 20px; /* Add padding for spacing */
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Centers items horizontally */
+    flex-direction: column; /* Align items vertically */
   width: 100vw; /* Full viewport width */
   height: 100vh; /* Full viewport height */
   max-width: 100%; /* Ensure it doesn't exceed viewport width */
