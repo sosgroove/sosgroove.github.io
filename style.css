@@ -6,7 +6,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh; /* Ensure the body takes up the full viewport height */
-    width: 100vh; 
 }
 
 .centerClass {
