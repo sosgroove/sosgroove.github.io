@@ -5,7 +5,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  min-height: 100vh; /* Ensure the body takes up the full viewport height */
+  background-color: #f0f0f0; /* Optional: Set a background color */
 }
 
 .centerClass {
@@ -16,8 +17,10 @@ body {
   flex-direction: column; /* Align items vertically */
   justify-content: center; /* Centers items vertically */
   align-items: center; /* Centers items horizontally */
-  height: 100vh;  /* Ensure the div takes full height */
-    width: 100vh; 
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  max-width: 100%; /* Ensure it doesn't exceed viewport width */
+  max-height: 100%; /* Ensure it doesn't exceed viewport height */
 }
 
 .linksContainer {
