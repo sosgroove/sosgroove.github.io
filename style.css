@@ -1,4 +1,4 @@
-
+/* 
 .centerClass {
     text-align: center; /* Horizontally center */
     background-color: #F7F3E3;
@@ -26,3 +26,45 @@ width: 15%;
       text-decoration: none;
       color: inherit;
     }
+ */
+
+body {
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the body takes up the full viewport height */
+}
+
+.centerClass {
+  text-align: center; /* Horizontally center text */
+  background-color: #F7F3E3;
+  padding: 20px; /* Add padding for spacing */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Centers items vertically */
+  align-items: center; /* Centers items horizontally */
+  height: 100%; /* Ensure the div takes full height */
+}
+
+.linksContainer {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Align items vertically */
+  gap: 10px; /* Add space between items */
+  align-items: center; /* Centers items horizontally */
+  width: 100%; /* Ensure the div takes full width */
+  max-width: 400px; /* Limit the maximum width if needed */
+}
+
+.btnSize {
+  width: 100%; /* Adjust button width to fill container */
+  max-width: 300px; /* Limit the maximum button width */
+}
+
+.no-underline {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color */
+  width: 100%;
+  display: flex; /* Flex display to center text */
+  justify-content: center; /* Center text horizontally */
+}
