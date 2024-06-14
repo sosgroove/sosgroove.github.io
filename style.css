@@ -50,7 +50,7 @@ body {
 .linksContainer {
   display: flex; /* Use flexbox for layout */
   flex-direction: column; /* Align items vertically */
-  gap: 10px; /* Add space between items */
+
   align-items: center; /* Centers items horizontally */
   width: 100%; /* Ensure the div takes full width */
   max-width: 400px; /* Limit the maximum width if needed */
@@ -65,6 +65,5 @@ body {
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Inherit text color */
   width: 100%;
-  display: flex; /* Flex display to center text */
   justify-content: center; /* Center text horizontally */
 }
