@@ -2,3 +2,7 @@
 .centerClass {
     text-align: center; /* Horizontally center */
   }
+
+.linksBlock {
+    display: block;
+}
