@@ -6,7 +6,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh; /* Ensure the body takes up the full viewport height */
-  width: 100vh; 
 }
 
 .centerClass {
@@ -18,6 +17,7 @@ body {
   justify-content: center; /* Centers items vertically */
   align-items: center; /* Centers items horizontally */
   height: 100vh;  /* Ensure the div takes full height */
+    width: 100vh; 
 }
 
 .linksContainer {
