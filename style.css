@@ -14,8 +14,6 @@ body {
   background-color: #F7F3E3;
   padding: 20px; /* Add padding for spacing */
   display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Align items vertically */
-  justify-content: center; /* Centers items vertically */
   align-items: center; /* Centers items horizontally */
   width: 100vw; /* Full viewport width */
   height: 100vh; /* Full viewport height */
