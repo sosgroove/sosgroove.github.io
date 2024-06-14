@@ -2,6 +2,8 @@
 .centerClass {
     text-align: center; /* Horizontally center */
     background-color: #F7F3E3
+          width: 100vw;
+      height: 100vh;
   }
 
 .linksContainer {
@@ -13,6 +15,10 @@
   .item {
       padding-top: 20px; /* Adjust the value as needed */
   }
+
+.full-page {
+
+    }
 
 .no-underline {
       text-decoration: none;
