@@ -50,7 +50,7 @@ body {
 .linksContainer {
   display: flex; /* Use flexbox for layout */
   flex-direction: column; /* Align items vertically */
-
+ gap: 10px; /* Optional: Add gap between grid items */
   align-items: center; /* Centers items horizontally */
   width: 100%; /* Ensure the div takes full width */
   max-width: 400px; /* Limit the maximum width if needed */
