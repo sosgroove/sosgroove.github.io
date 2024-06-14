@@ -4,6 +4,7 @@
     background-color: #F7F3E3;
           width: 100vw;
       height: 100vh;
+    align-items: center;
   }
 
 .linksContainer {
