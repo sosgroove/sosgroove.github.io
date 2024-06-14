@@ -3,6 +3,13 @@
     text-align: center; /* Horizontally center */
   }
 
-.linksBlock {
-    display: flex;
-}
+.linksContainer {
+    display: grid;
+    grid-template-columns: 1fr; /* One column */
+    grid-template-rows: repeat(3, auto); /* Three rows with auto height */
+    gap: 10px; /* Optional: Add gap between grid items */
+  }
+  .item {
+    background-color: lightblue; /* Just for demonstration */
+    padding: 20px; /* Just for demonstration */
+  }
