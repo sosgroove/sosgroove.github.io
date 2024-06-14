@@ -13,3 +13,8 @@
   .item {
       padding-top: 20px; /* Adjust the value as needed */
   }
+
+.no-underline {
+      text-decoration: none;
+      color: inherit;
+    }
